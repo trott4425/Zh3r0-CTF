@@ -27,6 +27,7 @@ To get to the console, in firefox you can either use ctrl + shift + I or navigat
 
 From there, paste the code above into your browser's javascript console
 
+![alt text](https://raw.githubusercontent.com/trott4425/Zh3r0-CTF/master/web/Discord/DiscordImageCTF.PNG)
 
 The protection that is in place by discord is to remove the token property from the local storage object when a page is reloaded. However, with the code that we used, the token property is being constantly reinitialized during the page refresh, so that the browser eventually submits it to the webserver, granting access to the account that the token was generated from.
 
